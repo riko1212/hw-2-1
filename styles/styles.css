@@ -4,10 +4,10 @@
   --main-text-color: #999999;
   --secondary-text-color: #ffffff;
   --accent-color: #4985ff;
-  --mobile-gap: 27px
+  --mobile-gap: 27px;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 h1,
 h2,
@@ -107,16 +107,16 @@ ul {
 }
 
 .title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.47;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
 }
 
 .mobile-title {
   max-width: 739px;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
 
 .mobile {
@@ -125,28 +125,28 @@ line-height: 1.47;
 }
 
 .text {
-font-size: 16px;
-line-height: 1.56;
-color: var(--main-text-color)
+  font-size: 16px;
+  line-height: 1.56;
+  color: var(--main-text-color);
 }
 
 .mobile-text {
   max-width: 730px;
-   text-align: center;
+  text-align: center;
   margin: 0 auto;
   margin-bottom: 70px;
 }
 
 .mobile-item-text {
-font-size: 14px;
+  font-size: 14px;
 }
 
 .mobile-item-title {
-font-weight: 600;
-font-size: 18px;
-line-height: 1.22;
-color: #000000;
-margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000000;
+  margin-bottom: 12px;
 }
 
 .mobile-list {
@@ -157,10 +157,49 @@ margin-bottom: 12px;
 
 .mobile-item {
   flex-basis: calc((100% - 3 * var(--mobile-gap)) / 3);
-  margin-left: var(--mobile-gap)
+  margin-left: var(--mobile-gap);
 }
 
 .mobile-button {
   margin: 0 auto;
   border: none;
+}
+.standart {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: #f6f6f8;
+}
+.standart-title {
+  color: var(--secondary-title-color);
+  margin-bottom: 40px;
+}
+.standart-text {
+  margin-bottom: 30px;
+}
+.standart-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--accent-color);
+}
+.standart-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 90px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 70px;
+}
+.standart-content {
+  max-width: 489px;
+}
+.standart-count {
+  font-size: 36px;
+  line-height: 1.47;
+  color: #000000;
+}
+
+.standart-list {
+  display: flex;
+  justify-content: space-evenly;
 }
