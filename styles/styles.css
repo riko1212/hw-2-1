@@ -4,6 +4,7 @@
   --main-text-color: #999999;
   --secondary-text-color: #ffffff;
   --accent-color: #4985ff;
+  --mobile-gap: 27px
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -102,4 +103,64 @@ ul {
 
   width: 200px;
   height: 45px;
+  cursor: pointer;
+}
+
+.title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.47;
+}
+
+.mobile-title {
+  max-width: 739px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px; 
+}
+
+.mobile {
+  padding-top: 110px;
+  padding-bottom: 105px;
+}
+
+.text {
+font-size: 16px;
+line-height: 1.56;
+color: var(--main-text-color)
+}
+
+.mobile-text {
+  max-width: 730px;
+   text-align: center;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.mobile-item-text {
+font-size: 14px;
+}
+
+.mobile-item-title {
+font-weight: 600;
+font-size: 18px;
+line-height: 1.22;
+color: #000000;
+margin-bottom: 12px;
+}
+
+.mobile-list {
+  display: flex;
+  margin-left: calc(-1 * var(--mobile-gap));
+  margin-bottom: 50px;
+}
+
+.mobile-item {
+  flex-basis: calc((100% - 3 * var(--mobile-gap)) / 3);
+  margin-left: var(--mobile-gap)
+}
+
+.mobile-button {
+  margin: 0 auto;
+  border: none;
 }
